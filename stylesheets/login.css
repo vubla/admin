@@ -1,0 +1,75 @@
+/*###########################
+LOGIN
+###########################*/
+body {
+	background: #f0f0f0;
+}
+
+#wrapper {
+	height: 243px;
+	width: 355px;
+	
+	position:absolute;
+	top: 40%;
+	left: 50%;
+	margin-top: -121.5px;
+	margin-left: -177.5px;
+	
+	padding: 25px;
+	
+	font-size: 11px;
+	
+	background: url("../images/bg_login.png");
+}
+
+
+#header {	
+	height: 40px;
+
+	background: url("../images/logo_light.png");
+	background-repeat: no-repeat;
+	
+	padding-bottom: 10px;
+	
+	border-bottom: 1px solid #e6e5e5;
+}
+
+form {
+
+}
+
+input[type=text], input[type=password] {
+	height: 37px;
+	width: 334px;
+	
+	margin-bottom: 10px;
+	
+	padding: 0px 10px 0px 10px;
+	
+	background: #eeeded url("../images/bg_input_field.png");
+	
+	border: 0px;
+}
+
+input[type=submit] {
+	height: 35px;
+	width: 89px;
+	
+	float: right;
+	
+	text-indent: -9999px;
+	
+	background: url("../images/btn_login.png");
+	
+	border: 0px;
+	
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-position: -89px 0px;
+}
+
+#messages {
+	color: #e47f00;
+}

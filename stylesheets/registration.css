@@ -1,0 +1,240 @@
+/*###########################
+REGISTRATION
+###########################*/
+#sidebar {
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+#sidebar h1, #sidebar h2 {
+	margin-bottom: 30px;
+	
+	font-size: 18px;
+	font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, Arial;
+	letter-spacing: 0.1em;
+	color: #1da89e;
+}
+
+#sidebar h3 {	
+	margin-top: 30px;
+	
+	font-size: 14px;
+}
+
+#sidebar .steps {
+	list-style: none;
+}
+
+#sidebar .steps li {
+	height: 58px;
+	
+	margin-bottom: 30px;
+	
+	padding: 4% 0px 0px 70px;
+}
+
+#sidebar .step1 {
+	background: url("/dev/images/step1_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step2 {
+	background: url("/dev/images/step2_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step3 {
+	background: url("/dev/images/step3_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step4 {
+	background: url("/dev/images/step4_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar a:link {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1da89e;
+}
+
+#sidebar a:visited {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1da89e;
+}
+
+#sidebar a:active {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1fcabe;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1fcabe;
+}
+
+
+#registration-form {	
+	width: 561px;
+	
+	margin-top: 20px;
+}
+
+#registration-form .step {
+	height: 27px;
+	
+	margin-bottom: 20px;
+	
+	padding-top: 2px;
+	padding-left: 40px;
+	
+	font-size: 14px;
+	font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, Arial;
+	letter-spacing: 0.1em;
+}
+
+#registration-form .step1 {
+	background: url("/dev/images/step1.png");
+	background-repeat: no-repeat;
+}
+
+#registration-form .step2 {
+	margin-top: 30px;
+	
+	background: url("/dev/images/step2.png");
+	background-repeat: no-repeat;
+}
+
+#registration-form .step3 {
+	margin-top: 30px;
+	
+	background: url("/dev/images/step3.png");
+	background-repeat: no-repeat;
+}
+
+#registration-form .step4 {
+	margin-top: 30px;
+	
+	background: url("/dev/images/step4.png");
+	background-repeat: no-repeat;
+}
+
+#registration-form .field {
+	height: 60px;
+	
+	position: relative;
+}
+
+#registration-form label {		
+	font-weight: bold;
+}
+
+#registration-form input[type=text], #registration-form input[type=password] {
+	height: 33px;
+	width: 376px;
+	
+	float: right;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	background: #eeeded url("/dev/images/bg_input.png");
+	
+	border: 0px;
+}
+
+#registration-form input[name=postal] {
+	margin-left: 102px;
+	float: none;
+}
+
+#registration-form input[name=city], #registration-form label[for=city] {
+	margin-left: 20px;
+	float: none;
+}
+
+#registration-form input[name=postal], #registration-form input[name=city] {
+	height: 34px;
+	width: 77px;
+	
+	background: #eeeded url("/dev/images/bg_input_small.png");
+}
+
+#registration-form input[type=submit] {
+	height: 79px;
+	width: 255px;
+	
+	display: block;
+	
+	margin-left: 20px;
+	float: right;
+	
+	font-family: 'Swiss921BT', Verdana, Tahoma, Arial;
+	font-size: 24px;
+	color: #f4f2f2;
+	
+	background: url("/dev/images/btn_big.png");
+	
+	border: 0px;
+	
+	cursor: pointer;
+}
+
+#registration-form input[type=submit]:hover {
+	background-position: -255px 0px;
+}
+
+#submit-registration-box {
+	height: 79px;
+	width: 512px;
+	
+	margin-top: 50px;
+	
+	padding: 25px;
+	
+	font-size: 12px;
+	line-height: 1.2em;
+	
+	background: url("/dev/images/submit-registration-box.png");
+}
+
+#submit-registration-box h2{
+	margin-top: -10px;
+	
+	font-family: 'RabioheadRegular', Verdana, Tahoma, Arial;
+	font-size: 26px;
+	color: #bf212d;
+}
+
+.validation {
+	height: 14px;
+	width: 14px;
+	
+	position: absolute;
+		right: -20px;
+		top: 10px;
+}
+
+.validation[name=postal], .validation[name=city]  {
+	display: inline-block;
+	
+	position: relative;
+		top: 2px;
+		right: -2px;
+}
+
+.validation[name=password2] {
+		top: 50px;
+}
+
+.validation-error {
+	background: url("/dev/images/icon_red.png");
+}
+
+.validation-success {
+	background: url("/dev/images/icon_green.png");
+}

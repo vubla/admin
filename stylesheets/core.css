@@ -1,0 +1,369 @@
+/*
+*
+*RESET SHEET
+*
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*###########################
+WORDPRESS
+###########################*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+/*###########################
+CORE
+###########################*/
+@font-face {
+	font-family: 'Swiss921BT';
+	src: url('../fonts/tt0562m_.eot');
+	src: local('?'), url('../fonts/tt0562m_.woff') format('woff'), url('../fonts/tt0562m_.ttf') format('truetype'), url('../fonts/tt0562m_.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'RabioheadRegular';
+    src: url('../fonts/rabiohead-webfont.eot');
+    src: url('../fonts/rabiohead-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rabiohead-webfont.woff') format('woff'),
+         url('../fonts/rabiohead-webfont.ttf') format('truetype'),
+         url('../fonts/rabiohead-webfont.svg#RabioheadRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'PT Sans',Verdana, Tahoma, Arial;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #302f30;
+	
+	background: #ffffff;
+	
+	overflow: auto;
+}
+
+.content {
+	height: 100%;
+	width: 960px;
+	
+	position: relative;	
+	margin: 0 auto;
+	
+	/*background: hotpink;*/
+}
+
+/*###########################
+2 COLUMN LAYOUT
+###########################*/
+
+.two-column-left {
+	width: 48%;
+	
+	float: left;
+}
+
+.two-column-right {
+	width: 48%;
+	
+	float: right;
+}
+
+/*###########################
+3 COLUMN LAYOUT
+###########################*/
+.three-column {
+	width: 33%;
+	
+	float: left;
+}
+
+.three-column-left {
+	padding-right: 30px;
+}
+
+.three-column-center {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.three-column-right {
+	padding-left: 30px;	
+}
+
+/*###########################
+4 COLUMN LAYOUT
+###########################*/
+.four-column {
+	width: 25%;
+	
+	float: left;
+}
+
+.four-column-left {
+	padding-right: 30px;
+}
+
+.four-column-center-1 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.four-column-center-2 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.four-column-right {
+	padding-left: 30px;	
+}
+
+/*###########################
+SIDEBAR
+###########################*/
+#sidebar {
+	width: 30%;
+	
+	margin-left: 30px;
+	
+	padding-left: 30px;
+	float: right;
+	
+	border-left: 1px solid #cdcdcc;
+}
+
+/*###########################
+HEADLINES
+###########################*/
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	
+	line-height: 1.2em;
+	color: #1da89e;
+}
+
+h1 {
+	font-family: 'Swiss921BT', Verdana, Tahoma, Arial;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, Arial;
+	letter-spacing: 0.1em;
+}
+
+/*###########################
+LINKS
+###########################*/
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1da89e;
+}
+
+a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1da89e;
+}
+
+a:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #34d6cb;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #34d6cb;
+}
+
+/*###########################
+FORM
+###########################*/
+input[type=text] {
+	width: 150px;
+	
+	padding: 9px 10px 9px 10px;
+	
+	background: #f0f0f0;
+	
+	border: 1px solid #d8d9d9;
+}
+
+textarea {
+	padding: 9px 10px 9px 10px;
+	
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 12px;
+	
+	background: #f0f0f0;
+	
+	border: 1px solid #d8d9d9;
+}
+
+/*###########################
+MISC
+###########################*/
+.red {
+	color: #bf212d;
+}
+
+.line-hor {
+	height: 1px;
+	
+	background: #e2e2e1;
+}
+
+.line-hor-header-border {
+	height: 1px;
+	
+	margin-bottom: 30px;
+	
+	background: #e2e2e1;	
+}
+
+.center {
+	text-align: center;
+}
+
+small {
+	font-size: 9px;
+}
+
+b {
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+#feedback {
+	height: 44px;
+	width: 128px;
+	
+	display: block;
+
+	position: fixed;
+		bottom: 0px;
+		left: 27px;
+		
+	z-index: 10;
+	
+	text-indent: -9999px;
+	
+	background: url("../images/btn_feedback.png");
+	background-position: -128px 0px;
+	
+	cursor: pointer;
+}
+
+#feedback:hover {
+	background-position: 0px 0px;
+}

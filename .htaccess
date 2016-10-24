@@ -1,0 +1,15 @@
+AuthName "Password Protect Directory"
+AuthType Basic
+AuthUserFile /var/www/.htpasswd
+<Limit GET POST PUT>
+Require valid-user
+</Limit>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)?$ index.php?controller=$1&task=$2 [QSA]
+RewriteRule ^([a-z0-9\-]+)$ index.php?controller=$1 [QSA]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/$ index.php?controller=$1&task=$2 [QSA]
+RewriteRule ^([a-z0-9\-]+)/$ index.php?controller=$1 [QSA]
+</IfModule>
